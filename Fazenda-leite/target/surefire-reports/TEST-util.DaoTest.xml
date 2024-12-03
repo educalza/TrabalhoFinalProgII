@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="util.DaoTest" time="0.305" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Users\DaniloSantos\Downloads\fazenda\fazenda-master\target\test-classes;D:\Users\DaniloSantos\Downloads\fazenda\fazenda-master\target\classes;D:\Users\DaniloSantos\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13.jar;D:\Users\DaniloSantos\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13-win.jar;D:\Users\DaniloSantos\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13.jar;D:\Users\DaniloSantos\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13-win.jar;D:\Users\DaniloSantos\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13.jar;D:\Users\DaniloSantos\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13-win.jar;D:\Users\DaniloSantos\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13.jar;D:\Users\DaniloSantos\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13-win.jar;D:\Users\DaniloSantos\.m2\repository\org\mongodb\mongodb-driver-sync\4.10.2\mongodb-driver-sync-4.10.2.jar;D:\Users\DaniloSantos\.m2\repository\org\mongodb\bson\4.10.2\bson-4.10.2.jar;D:\Users\DaniloSantos\.m2\repository\org\mongodb\mongodb-driver-core\4.10.2\mongodb-driver-core-4.10.2.jar;D:\Users\DaniloSantos\.m2\repository\org\mongodb\bson-record-codec\4.10.2\bson-record-codec-4.10.2.jar;D:\Users\DaniloSantos\.m2\repository\org\mongojack\mongojack\4.8.0\mongojack-4.8.0.jar;D:\Users\DaniloSantos\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;D:\Users\DaniloSantos\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;D:\Users\DaniloSantos\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;D:\Users\DaniloSantos\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.14.1\jackson-datatype-jsr310-2.14.1.jar;D:\Users\DaniloSantos\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;D:\Users\DaniloSantos\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;D:\Users\DaniloSantos\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;D:\Users\DaniloSantos\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;D:\Users\DaniloSantos\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;D:\Users\DaniloSantos\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;D:\Users\DaniloSantos\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.2\bin"/>
+    <property name="sun.java.command" value="D:\Users\DaniloSantos\AppData\Local\Temp\surefire6978247334279918243\surefirebooter-20241119093545846_3.jar D:\Users\DaniloSantos\AppData\Local\Temp\surefire6978247334279918243 2024-11-19T09-35-45_723-jvmRun1 surefire-20241119093545846_1tmp surefire_0-20241119093545846_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="util.DaoTest"/>
+    <property name="surefire.test.class.path" value="D:\Users\DaniloSantos\Downloads\fazenda\fazenda-master\target\test-classes;D:\Users\DaniloSantos\Downloads\fazenda\fazenda-master\target\classes;D:\Users\DaniloSantos\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13.jar;D:\Users\DaniloSantos\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13-win.jar;D:\Users\DaniloSantos\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13.jar;D:\Users\DaniloSantos\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13-win.jar;D:\Users\DaniloSantos\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13.jar;D:\Users\DaniloSantos\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13-win.jar;D:\Users\DaniloSantos\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13.jar;D:\Users\DaniloSantos\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13-win.jar;D:\Users\DaniloSantos\.m2\repository\org\mongodb\mongodb-driver-sync\4.10.2\mongodb-driver-sync-4.10.2.jar;D:\Users\DaniloSantos\.m2\repository\org\mongodb\bson\4.10.2\bson-4.10.2.jar;D:\Users\DaniloSantos\.m2\repository\org\mongodb\mongodb-driver-core\4.10.2\mongodb-driver-core-4.10.2.jar;D:\Users\DaniloSantos\.m2\repository\org\mongodb\bson-record-codec\4.10.2\bson-record-codec-4.10.2.jar;D:\Users\DaniloSantos\.m2\repository\org\mongojack\mongojack\4.8.0\mongojack-4.8.0.jar;D:\Users\DaniloSantos\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;D:\Users\DaniloSantos\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;D:\Users\DaniloSantos\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;D:\Users\DaniloSantos\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.14.1\jackson-datatype-jsr310-2.14.1.jar;D:\Users\DaniloSantos\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;D:\Users\DaniloSantos\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;D:\Users\DaniloSantos\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;D:\Users\DaniloSantos\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;D:\Users\DaniloSantos\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;D:\Users\DaniloSantos\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;D:\Users\DaniloSantos\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="D:\Users\DaniloSantos"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Users\DaniloSantos\Downloads\fazenda\fazenda-master"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="D:\Users\DaniloSantos\AppData\Local\Temp\surefire6978247334279918243\surefirebooter-20241119093545846_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-58"/>
+    <property name="user.name" value="DaniloSantos"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-20\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="D:\Users\DaniloSantos\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="D:\Users\DaniloSantos\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="D:\Users\DaniloSantos\Downloads\fazenda\fazenda-master"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Tools\Python312\Scripts\;C:\Tools\Python312\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\LLVM\bin;C:\Program Files\Go\bin;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-21.0.2;C:\Tools\brModelo\dist\brModelo;C:\Tools\Protege-5.6.3\Protege;C:\Program Files\Git\;C:\Tools\sinta32\;;C:\Program Files (x86)\AOMEI\AOMEI Backupper\7.3.4;D:\Users\DaniloSantos\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testListar" classname="util.DaoTest" time="0.291">
+    <system-out><![CDATA[Eu2
+]]></system-out>
+    <system-err><![CDATA[nov. 19, 2024 9:35:46 AM com.mongodb.internal.diagnostics.logging.Loggers shouldUseSLF4J
+WARNING: SLF4J not found on the classpath.  Logging is disabled for the 'org.mongodb.driver' component
+nov. 19, 2024 9:35:46 AM org.bson.diagnostics.Loggers shouldUseSLF4J
+WARNING: SLF4J not found on the classpath. Logging is disabled for the 'org.bson' component
+]]></system-err>
+  </testcase>
+</testsuite>
