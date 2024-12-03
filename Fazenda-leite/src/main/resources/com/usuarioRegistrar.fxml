@@ -40,24 +40,30 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.UsuarioIncluirControle">
    <children>
-      <TextField fx:id="campoLogin" layoutX="275.0" layoutY="136.0" prefHeight="30.0" prefWidth="200.0" />
-      <Label layoutX="115.0" layoutY="133.0" prefHeight="35.0" prefWidth="70.0" text="Login">
+      <TextField fx:id="campoLogin" layoutX="275.0" layoutY="123.0" prefHeight="30.0" prefWidth="200.0" />
+      <TextField fx:id="campoNome" layoutX="275.0" layoutY="183.0" prefHeight="30.0" prefWidth="200.0" />
+      <Label layoutX="115.0" layoutY="120.0" prefHeight="35.0" prefWidth="70.0" text="Login">
          <font>
             <Font size="25.0" />
          </font>
       </Label>
-      <TextField fx:id="campoSenha" layoutX="275.0" layoutY="220.0" prefHeight="30.0" prefWidth="200.0" />
-      <Label layoutX="115.0" layoutY="217.0" prefHeight="35.0" prefWidth="70.0" text="Senha">
+      <TextField fx:id="campoSenha" layoutX="275.0" layoutY="243.0" prefHeight="30.0" prefWidth="200.0" />
+      <Label layoutX="115.0" layoutY="180.0" prefHeight="35.0" prefWidth="70.0" text="Nome">
          <font>
             <Font size="25.0" />
          </font>
       </Label>
-      <Button layoutX="203.0" layoutY="305.0" mnemonicParsing="false" onAction="#gravar" prefHeight="40.0" prefWidth="65.0" text="Entrar" />
-      <Label layoutX="275.0" layoutY="54.0" prefHeight="36.0" prefWidth="200.0" text="Login do usuário">
+      <Label layoutX="115.0" layoutY="240.0" prefHeight="35.0" prefWidth="70.0" text="Senha">
          <font>
             <Font size="25.0" />
          </font>
       </Label>
-      <Button layoutX="449.0" layoutY="305.0" mnemonicParsing="false" onAction="#gravar" prefHeight="40.0" prefWidth="65.0" text="Registrar" />
+      <Button layoutX="245.0" layoutY="345.0" mnemonicParsing="false" onAction="#gravar" prefHeight="40.0" prefWidth="65.0" text="Gravar" />
+      <Button layoutX="435.0" layoutY="345.0" mnemonicParsing="false" onAction="#cancelar" prefHeight="40.0" prefWidth="65.0" text="Cancelar" />
+      <Label layoutX="275.0" layoutY="53.0" prefHeight="36.0" prefWidth="200.0" text="Registrar Usuário">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
