@@ -34,13 +34,13 @@ public class MenuControle {
             for (MenuItem item : menuUsuarios.getItems()) {
                 switch (item.getText()) {
                     case "Listar":
-                        item.setOnAction(e -> carregarTela("usuarioListar"));
+                        item.setOnAction(e -> carregarTela("UsuarioConsultar"));
                         break;
                     case "Alterar":
-                        item.setOnAction(e -> carregarTela("usuarioAlterar"));
+                        item.setOnAction(e -> carregarTela("UsuarioEditar"));
                         break;
                     case "Excluir":
-                        item.setOnAction(e -> carregarTela("usuarioExcluir"));
+                        item.setOnAction(e -> carregarTela("UsuarioExcluir"));
                         break;
                 }
             }
@@ -54,16 +54,16 @@ public class MenuControle {
             for (MenuItem item : menuVacas.getItems()) {
                 switch (item.getText()) {
                     case "Cadastrar":
-                        item.setOnAction(e -> carregarTela("vacaIncluir"));
+                        item.setOnAction(e -> carregarTela("VacaCadastro"));
                         break;
                     case "Listar":
-                        item.setOnAction(e -> carregarTela("vacaListar"));
+                        item.setOnAction(e -> carregarTela("VacaConsultar"));
                         break;
                     case "Alterar":
-                        item.setOnAction(e -> carregarTela("vacaAlterar"));
+                        item.setOnAction(e -> carregarTela("VacaEditar"));
                         break;
                     case "Excluir":
-                        item.setOnAction(e -> carregarTela("vacaExcluir"));
+                        item.setOnAction(e -> carregarTela("VacaExcluir"));
                         break;
                 }
             }

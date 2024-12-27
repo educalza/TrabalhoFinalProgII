@@ -1,5 +1,6 @@
 package com;
 
+import java.io.IOException;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
@@ -13,7 +14,17 @@ public class VacaCadastroController {
     @FXML private TextField txtVacaNome;
     @FXML private TextField txtVacaRaca;
     
-    private final Dao<Vaca> vacaDao = new Dao<>(Vaca.class);    
+    private Dao<Vaca> vacaDao;    
+    
+    @FXML
+    private void initialize(){
+        vacaDao = new Dao<>(Vaca.class);
+    }
+    
+    @FXML
+    private void cancelar() throws IOException{
+        App.setRoot("Menu");
+    }
     
     @FXML
     public void salvarVaca(){
@@ -21,7 +32,7 @@ public class VacaCadastroController {
         String nome = txtVacaNome.getText();
         String raca = txtVacaRaca.getText();
         
-        if(brinco == null || nome == null || raca == null){
+        if(txtVacaBrinco.getText().isBlank() || txtVacaNome.getText().isBlank() || txtVacaRaca.getText().isBlank()){
             mostrarAlerta(Alert.AlertType.WARNING, "Aviso", "Preencha todos os campos");
             return;
         }

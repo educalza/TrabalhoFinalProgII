@@ -47,7 +47,7 @@ public class UsuarioLogin {
             return;
         }
         
-        if(!usuario.getSenha().equals(txtSenha.getText())){
+        if(usuario.getSenha() == null || !usuario.getSenha().equals(txtSenha.getText())){
             System.out.println("Usuário encontrado: " + usuario.getLogin());
             mostrarAlerta(AlertType.WARNING, "AVISO", "Senha incorreta");
             return;
@@ -56,7 +56,7 @@ public class UsuarioLogin {
         try{
             menu();
         } catch(IOException e){
-            mostrarAlerta(AlertType.ERROR, "ERRO", "erro desconhecido");
+            mostrarAlerta(AlertType.ERROR, "ERRO", "erro desconhecido " + e);
         }
     }
     

@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" maxHeight="400.0" maxWidth="500.0" minHeight="400.0" minWidth="500.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.MenuControle">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.MenuControle">
    <children>
       <!-- Menu de Usuários -->
       <SplitMenuButton fx:id="menuUsuarios" layoutX="64.0" layoutY="188.0" mnemonicParsing="false" text="Usuários">

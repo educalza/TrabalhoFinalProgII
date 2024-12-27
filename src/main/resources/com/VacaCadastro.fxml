@@ -20,9 +20,9 @@
             <TextField fx:id="txtVacaRaca" promptText="Raça" />
             <HBox alignment="CENTER" prefHeight="25.0" prefWidth="254.0" spacing="20.0">
                <children>
-                  <Button fx:id="btnConfirmar" text="Confirmar" />
-                  <Button fx:id="btnLimpar" text="Limpar" />
-                  <Button fx:id="btnLimpar1" text="Cancelar" />
+                  <Button fx:id="btnConfirmar" onAction="#salvarVaca" text="Confirmar" />
+                  <Button fx:id="btnLimpar" onAction="#limparCamposVaca" text="Limpar" />
+                  <Button fx:id="btnLimpar1" onAction="#cancelar" text="Cancelar" />
                </children>
             </HBox>
          </children>
